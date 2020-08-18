@@ -10,3 +10,4 @@ assertEqual(1, 1);
 assertEqual(17, 33);
 assertEqual(true, true);
 assertEqual('david', 'david');
+assertEqual([1, 2], [1, 2])
