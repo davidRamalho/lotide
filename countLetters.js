@@ -21,3 +21,5 @@ const countLetters = function(string){
 console.log(countLetters('david'));
 let test = countLetters('this is a test string')
 assertEqual(test['t'], 4);
+
+module.exports = countLetters;

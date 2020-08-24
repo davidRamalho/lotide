@@ -35,3 +35,5 @@ const primeNumbers = [3, 7, 5, 11, 17]
 assertArraysEqual(animals, map(animals, x => x))
 assertArraysEqual(['M', 'I', 'N', 'Q'], map(rockBands, x => x[0]))
 assertArraysEqual([3+1, 7+1, 5+1, 11+1, 17+1], map(primeNumbers, x => x+1))
+
+module.exports = map;
